@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2>to do list</h2>
+            <i class="fa fa-times"></i>
+        </header>
+        
+        <form action="" id="item-form">
+            <div class="entrance">
+                <label for="item-input" class="form-label"> Enter Item</label>
+                <input type="text" class="form-control" id="item-input">
+                <div class="form-text" id="input-invalid"></div>
+            </div>
+
+            <button type="submit" class=""> Add Item</button>
+        </form>
+        
+        <div class="filter-dad">
+            <input id="filter" class="form-control" type="text" placeholder="Filtr Items">
+        </div>
+
+        <ul id="item-list" class="">
+            <li class="list-item">
+                first item
+             <i class="fa fa-user-times"></i>
+            </li>  
+        </ul>
+        
+        <div class="d-grid">
+            <button id="item-clear" class="" type="button"> Clear All</button>
+        </div>
+    </div>
+
+    
+    
+
+
+
+    <script src="fontawesome-free-6.3.0-web/js/all.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
