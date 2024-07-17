@@ -1,0 +1,102 @@
+
+
+body{
+    background-color: rgb(197, 197, 197);
+    
+}
+
+.container{
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    align-items: start ;
+    color: #fff;
+    margin:40px auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: end; 
+}
+
+form{
+    width: 100%;
+}
+
+form .entrance{
+    display: flex;
+    flex-flow: column;
+}
+form .entrance .form-control{
+    margin: 10px 0;
+    border-radius: .375rem;
+    padding: 3px 0px;
+}
+
+form #input-invalid{
+    color: rgb(255, 129, 129); 
+}
+
+form button{
+    background-color: rgb(224, 130, 130); 
+    color: #fff;
+    padding: 5px 15px; 
+    outline: none; 
+    border: none; 
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: .375rem;
+    
+}
+
+.filter-dad{
+    width: 100%;
+
+}
+.filter-dad input{
+    width: calc(100% - 14px);
+    border-radius: .375rem;
+    padding: 3px 5px;
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+}
+
+.list-item{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 3px solid #dee2e6;
+    border-radius: .375rem;
+    margin-bottom: 1rem;
+    padding: 5px 12px;
+    -webkit-border-radius: .375rem;
+    -moz-border-radius: .375rem;
+    -ms-border-radius: .375rem;
+    -o-border-radius: .375rem;
+}
+
+.removeing{
+    color: rgb(255, 98, 0);
+}
+
+.d-grid{
+    width: 100%;
+}
+
+.d-grid button{
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid #dee2e6;
+    border-radius: .375rem;
+    padding: 3px 0px;
+
+}
+.edit-mode{
+    color: #ccc;
+}
