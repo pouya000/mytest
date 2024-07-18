@@ -35,9 +35,5 @@ function onClickItem(e) {
 
 // -----------------------------------------
 // aaaaaaaaaaaaaaaaaaaa
-<<<<<<< Updated upstream
 // i am in puya & change  cccccccccccccccccccccccc puya puya puya
-=======
-// i am in master & any change master master master .
-// i am in master & any change master2 master2 master2 .
->>>>>>> Stashed changes
+// i am in puya & change  cccccccccccccccccccccccc puya2 puya2 puya2
